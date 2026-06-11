@@ -11,8 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.myfirstcomposeapp.components.MyRow
-import com.example.myfirstcomposeapp.components.MyRowScroll
+import com.example.myfirstcomposeapp.state.MySourceOfTruth
 import com.example.myfirstcomposeapp.ui.theme.MyFirstComposeAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyFirstComposeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MyRowScroll(Modifier.padding(innerPadding))
+                    MySourceOfTruth(Modifier.padding(innerPadding))
                 }
             }
         }
