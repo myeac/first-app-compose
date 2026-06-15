@@ -1,7 +1,6 @@
-package com.example.myfirstcomposeapp.components
+package com.example.myfirstcomposeapp.components.layouts
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.indication
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
