@@ -2,6 +2,8 @@ package com.example.myfirstcomposeapp.components.text
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Text
@@ -45,7 +47,8 @@ fun MyFieldAdvanced(
     TextField(value = value, onValueChange = { onValueChange(it) }, label = { Text("label test") })
 
     MyPasswordTextField(value) { onValueChange(it) }
-
+    Spacer(Modifier.height(20.dp))
+    MyOutlinedTextField(value) { onValueChange(it) }
 }
 
 @Composable
