@@ -15,7 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Preview()
 @Composable
-fun TaskBoxesPreview(){
+fun TaskBoxesPreview() {
     TaskBoxes(Modifier)
 }
 
@@ -48,7 +48,10 @@ fun TaskBoxes(
                     .weight(1f),
                 contentAlignment = Alignment.Center
             ) {
-                Text(text = "Ejemplo 2")
+                Text(
+                    text = "Ejemplo 2",
+                    color = Color.White
+                )
             }
             Box(
                 modifier = Modifier
@@ -69,6 +72,5 @@ fun TaskBoxes(
         ) {
             Text(text = "Ejemplo 4")
         }
-
     }
 }
