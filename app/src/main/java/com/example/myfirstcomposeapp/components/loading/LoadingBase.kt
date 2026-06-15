@@ -6,6 +6,8 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ProgressIndicatorDefaults
 import androidx.compose.runtime.Composable
@@ -22,32 +24,12 @@ fun MyProgressCircle(
 ) {
 
     Column(
-        modifier = modifier.fillMaxSize(),
+        modifier = modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        CircularProgressIndicator(
-            modifier = Modifier.size(150.dp),
-            color = Color.Red,
-            strokeWidth = 10.dp,
-            trackColor = Color.Blue,
-            strokeCap = StrokeCap.Square
-        )
-        Spacer(Modifier.height(10.dp))
-        CircularProgressIndicator(
-            modifier = Modifier.size(150.dp),
-            color = Color.Green,
-            strokeWidth = 10.dp,
-            trackColor = Color.Blue,
-            strokeCap = StrokeCap.Butt
-        )
-        Spacer(Modifier.height(10.dp))
-        CircularProgressIndicator(
-            modifier = Modifier.size(150.dp),
-            color = Color.Yellow,
-            strokeWidth = 10.dp,
-            trackColor = Color.Blue,
-            strokeCap = StrokeCap.Round
-        )
+        MyCircularProgressIndicator()
     }
 }
