@@ -32,6 +32,8 @@ fun MyImagesBase(
         ImagesWithClip()
         Spacer(Modifier.width(10.dp))
         MyImageWithUrlCoil()
+        Spacer(Modifier.width(10.dp))
+        MyImageIcon()
     }
 }
 
