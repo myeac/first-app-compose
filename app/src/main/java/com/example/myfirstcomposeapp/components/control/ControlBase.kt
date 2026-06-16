@@ -35,6 +35,9 @@ fun MyControlButtons(
             Spacer(Modifier.height(8.dp))
             MyTriStateCheckBox()
             Spacer(Modifier.height(8.dp))
+            MyRadioButton()
+            Spacer(Modifier.height(8.dp))
+            MyRadioButtonList()
         }
     }
 }
