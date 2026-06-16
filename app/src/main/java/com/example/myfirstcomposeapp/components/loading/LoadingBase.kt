@@ -49,6 +49,8 @@ fun MyProgressCircle(
         MyLinearProgressIndicator()
         Spacer(Modifier.height(16.dp))
         MyIndicator(modifier) { }
+        Spacer(Modifier.height(16.dp))
+        LottieProgress()
     }
 }
 
