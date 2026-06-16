@@ -1,7 +1,10 @@
 package com.example.myfirstcomposeapp.components.control
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -23,7 +26,15 @@ fun MyControlButtons(
             .verticalScroll(rememberScrollState()),
         contentAlignment = Alignment.Center
     ) {
-        MySwitch()
-
+        Column() {
+            MySwitch()
+            Spacer(Modifier.height(8.dp))
+            MyCheckBox()
+            Spacer(Modifier.height(8.dp))
+            ParentCheckBoxWithText()
+            Spacer(Modifier.height(8.dp))
+            MyTriStateCheckBox()
+            Spacer(Modifier.height(8.dp))
+        }
     }
 }
