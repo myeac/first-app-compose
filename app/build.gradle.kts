@@ -46,6 +46,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.constraint.layout)
 
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
     implementation(libs.lottie.compose)
 
     testImplementation(libs.junit)
