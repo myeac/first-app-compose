@@ -1,4 +1,4 @@
-package com.example.myfirstcomposeapp.components.buttons
+package com.example.myfirstcomposeapp.components.scaffold
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.background
@@ -115,7 +115,8 @@ fun NavigationBarExample(
         itemList.forEachIndexed { index, model ->
             NavigationItemScope(
                 index == selectedIndex,
-                model){
+                model
+            ) {
                 selectedIndex = index
             }
         }
