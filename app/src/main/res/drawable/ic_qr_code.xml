@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright (C) 2026 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#AF0000"
+        android:fillType="evenOdd"
+        android:pathData="M36,52C40.418,52 44,55.582 44,60V80C44,84.418 40.418,88 36,88H16C11.582,88 8,84.418 8,80V60C8,55.582 11.582,52 16,52H36ZM16,80H36V60H16V80Z" />
+    <path
+        android:fillColor="#AF0000"
+        android:pathData="M64,72C66.209,72 68,73.791 68,76V80C68,82.209 66.209,84 64,84H60C57.791,84 56,82.209 56,80V76C56,73.791 57.791,72 60,72H64Z" />
+    <path
+        android:fillColor="#AF0000"
+        android:pathData="M80,72C82.209,72 84,73.791 84,76V80C84,82.209 82.209,84 80,84H76C73.791,84 72,82.209 72,80V76C72,73.791 73.791,72 76,72H80Z" />
+    <path
+        android:fillColor="#AF0000"
+        android:pathData="M64,56C66.209,56 68,57.791 68,60V64C68,66.209 66.209,68 64,68H60C57.791,68 56,66.209 56,64V60C56,57.791 57.791,56 60,56H64Z" />
+    <path
+        android:fillColor="#AF0000"
+        android:pathData="M80,56C82.209,56 84,57.791 84,60V64C84,66.209 82.209,68 80,68H76C73.791,68 72,66.209 72,64V60C72,57.791 73.791,56 76,56H80Z" />
+    <path
+        android:fillColor="#AF0000"
+        android:fillType="evenOdd"
+        android:pathData="M36,8C40.418,8 44,11.582 44,16V36C44,40.418 40.418,44 36,44H16C11.582,44 8,40.418 8,36V16C8,11.582 11.582,8 16,8H36ZM16,36H36V16H16V36Z" />
+    <path
+        android:fillColor="#AF0000"
+        android:fillType="evenOdd"
+        android:pathData="M80,8C84.418,8 88,11.582 88,16V36C88,40.418 84.418,44 80,44H60C55.582,44 52,40.418 52,36V16C52,11.582 55.582,8 60,8H80ZM60,36H80V16H60V36Z" />
+</vector>
